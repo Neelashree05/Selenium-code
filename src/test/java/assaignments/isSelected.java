@@ -25,7 +25,7 @@ public class isSelected {
 		{
 			System.out.println("pass");
 		}
-		else
+    	else
 		{
 			System.out.println("fail");
 		}
