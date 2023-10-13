@@ -1,4 +1,4 @@
-package practisepgms;
+package assaignments;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -7,7 +7,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class assaignmnt {
+public class isSelected {
 	public static void main(String[] args) {
 	
 	WebDriverManager.edgedriver().setup();
@@ -20,10 +20,8 @@ public class assaignmnt {
 
 		driver.findElement(By.xpath("//a[text()='Create new account']")).click(); // create a new account address
 
-		WebElement radio = driver.findElement(By.xpath("(//input[@class='_8esa'])[1]"));
-
-
-		if(radio.isSelected())
+		WebElement radio = driver.findElement(By.id("u_3_4_gS"));
+    	if(radio.isSelected())
 		{
 			System.out.println("pass");
 		}

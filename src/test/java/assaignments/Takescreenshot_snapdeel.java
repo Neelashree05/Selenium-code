@@ -1,4 +1,4 @@
-package practisepgms;
+package assaignments;
 
 import java.io.File;
 
